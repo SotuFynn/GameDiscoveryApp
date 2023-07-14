@@ -14,6 +14,8 @@ export interface Game {
     background_image: string; 
     parent_platforms: {platform: Platform}[] //Array of objects where each object has a property called Platform of type platform
     metacritic: number;
+    rating_top: number;
+    
   }
   
 
